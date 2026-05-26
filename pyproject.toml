@@ -6,10 +6,11 @@ authors = [
     {name = "harry-hdh",email = "hdh997@outlook.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.15 || >3.15"
 dependencies = [
     "psycopg2-binary (>=2.9.12,<3.0.0)",
-    "requests (>=2.34.2,<3.0.0)"
+    "requests (>=2.34.2,<3.0.0)",
+    "apache-airflow (>=3.2.1,<4.0.0)"
 ]
 
 [tool.poetry]

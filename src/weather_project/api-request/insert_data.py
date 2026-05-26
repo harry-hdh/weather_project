@@ -1,4 +1,4 @@
-from api_request import fetch_mock_data
+from api_request import fetch_mock_data, fetch_data
 from connection import connect_db , psycopg2
 
 def create_table(conn):
@@ -54,7 +54,8 @@ def insert_data(conn, data):
 
 def main():
     try:
-        data = fetch_mock_data()
+        #data = fetch_mock_data()
+        data = fetch_data()
         conn = connect_db()
         create_table(conn)
         insert_data(conn,data)
