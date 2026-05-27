@@ -44,9 +44,9 @@ services:
       - db
     networks:
       - my-network
-    command: debug
+    command: run
     #init my_project
-    #run
+    # debug
 
 networks:
   my-network:
