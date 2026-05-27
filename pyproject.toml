@@ -10,7 +10,8 @@ requires-python = ">=3.10,<3.15 || >3.15"
 dependencies = [
     "psycopg2-binary (>=2.9.12,<3.0.0)",
     "requests (>=2.34.2,<3.0.0)",
-    "apache-airflow (>=3.2.1,<4.0.0)"
+    "apache-airflow (>=3.2.1,<4.0.0)",
+    "apache-airflow-providers-docker (>=4.5.6,<5.0.0)"
 ]
 
 [tool.poetry]
